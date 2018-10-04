@@ -8,3 +8,8 @@ run;
 proc sql;
 select count(*) from test;
 quit;
+
+*another update;
+data test;
+var2=var1*2;
+run;
